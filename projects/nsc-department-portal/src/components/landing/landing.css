@@ -1,0 +1,59 @@
+#background{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    filter: brightness(.1);
+}
+
+.Landing{
+    width: 100vw;
+    height: 100vh;
+}
+
+#form{
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+input{
+    width: 80%;
+    height: 1rem;
+    padding: .5rem;
+    margin: 1rem 0 0 0;
+    box-shadow: 0px 7px 10px 0px grey;
+    border: none;
+    border-radius: 3px;
+}
+
+#login-button{
+    background-color: green;
+    color: white;
+    margin-top: 2rem;
+    border: none;
+    box-shadow: 0px 7px 10px 0px grey;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+    border: 1px solid transparent;
+    transition: .2s;
+}
+
+#login-button:hover{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+}
